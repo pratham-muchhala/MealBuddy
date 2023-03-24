@@ -1,0 +1,90 @@
+.register1 {
+  position: relative;
+  font-weight: 600;
+}
+.register-now-and {
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-100);
+  text-align: center;
+}
+.confirm-pwd,
+.name {
+  border: 1px solid var(--color-indianred);
+  font-size: var(--font-size-xl);
+  background-color: var(--white);
+  align-self: stretch;
+  border-radius: var(--br-mini);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.name {
+  font-family: var(--font-poppins);
+  padding: var(--padding-xs) var(--padding-11xl);
+}
+.confirm-pwd {
+  padding: var(--padding-xs) var(--padding-76xl) var(--padding-xs)
+    var(--padding-11xl);
+}
+.confirm-pwd,
+.register3,
+.span {
+  font-family: var(--font-poppins);
+}
+.span {
+  font-weight: 600;
+}
+.register2 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+  text-align: left;
+}
+.reg-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xs) var(--padding-36xl) var(--padding-7xs)
+    var(--padding-46xl);
+  background-color: var(--color-indianred);
+  border-radius: var(--br-mini);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.have-an-account {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+}
+.register-form,
+.sign-in {
+  display: flex;
+  justify-content: flex-start;
+}
+.sign-in {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-3xs) var(--padding-19xl);
+  background-color: transparent;
+  border-radius: var(--br-29xl);
+  flex-direction: row;
+  align-items: flex-start;
+}
+.register-form {
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro-300);
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-11xl);
+  align-items: center;
+  gap: var(--gap-15xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

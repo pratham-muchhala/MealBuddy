@@ -1,0 +1,119 @@
+.btn-logo-item {
+  position: relative;
+  background-color: var(--color-gainsboro-200);
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+}
+.mealbuddy2 {
+  position: relative;
+  font-weight: 600;
+}
+.btn-logo1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-4xl);
+}
+.login4,
+.search1 {
+  font-size: var(--font-size-xl);
+  font-family: var(--font-poppins);
+}
+.search1 {
+  border: 0.5px solid var(--color-black);
+  background-color: var(--color-gainsboro-100);
+  border-radius: var(--br-31xl);
+  box-sizing: border-box;
+  width: 334px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-11xl);
+  align-items: center;
+  justify-content: flex-start;
+}
+.login4 {
+  position: relative;
+  color: var(--white);
+  text-align: left;
+}
+.login3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-36xl);
+  background-color: var(--color-indianred);
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hamburger-child1,
+.line-div {
+  position: relative;
+  border-top: 5px solid var(--color-black);
+  box-sizing: border-box;
+  width: 55px;
+  height: 5px;
+  flex-shrink: 0;
+}
+.hamburger-child1 {
+  width: 44px;
+}
+.hamburger1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-mini);
+}
+.nav-bar1,
+.nav-items1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-items1 {
+  justify-content: flex-start;
+  gap: var(--gap-36xl);
+}
+.nav-bar1 {
+  width: 1279px;
+  justify-content: space-between;
+}
+.img-4334-1-icon {
+  position: relative;
+  width: 453px;
+  height: 453px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.main1 {
+  width: 1233px;
+  height: 920px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 113px;
+}
+.recipe {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-56xl) var(--padding-61xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 65px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

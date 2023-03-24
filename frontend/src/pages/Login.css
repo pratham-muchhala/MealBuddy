@@ -1,0 +1,33 @@
+.eat {
+  margin: 0;
+}
+.eat-save-share-container {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 329px;
+  height: 442px;
+  flex-shrink: 0;
+}
+.login {
+  position: relative;
+  border-radius: var(--br-xl);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 100px 200px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background-image: url(/public/login@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  opacity: 0.75;
+  text-align: left;
+  font-size: 70px;
+  color: var(--white);
+  font-family: var(--font-poppins);
+}

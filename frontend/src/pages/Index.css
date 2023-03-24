@@ -1,0 +1,111 @@
+.btn-logo-child {
+  position: relative;
+  background-color: var(--color-gainsboro-200);
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+}
+.mealbuddy1 {
+  position: relative;
+  font-weight: 600;
+}
+.btn-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-4xl);
+}
+.login2,
+.search {
+  font-size: var(--font-size-xl);
+  font-family: var(--font-poppins);
+}
+.search {
+  border: 0.5px solid var(--color-black);
+  background-color: var(--color-gainsboro-100);
+  border-radius: var(--br-31xl);
+  box-sizing: border-box;
+  width: 334px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-11xl);
+  align-items: center;
+  justify-content: flex-start;
+}
+.login2 {
+  position: relative;
+  color: var(--white);
+  text-align: left;
+}
+.login1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-36xl);
+  background-color: var(--color-indianred);
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hamburger-child,
+.hamburger-item {
+  position: relative;
+  border-top: 5px solid var(--color-black);
+  box-sizing: border-box;
+  width: 55px;
+  height: 5px;
+  flex-shrink: 0;
+}
+.hamburger-item {
+  width: 44px;
+}
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-mini);
+}
+.nav-items {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-36xl);
+}
+.index1,
+.main,
+.nav-bar,
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+.nav-bar {
+  width: 1279px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.index1,
+.main {
+  flex-direction: column;
+}
+.main {
+  padding: 0 var(--padding-10xs);
+  justify-content: center;
+  gap: var(--gap-81xl);
+}
+.index1 {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  overflow: hidden;
+  padding: var(--padding-11xl) 0 0;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: 101px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,72 @@
+.stop-wasting {
+  margin: 0;
+}
+.stop-wasting-food-container {
+  align-self: stretch;
+  position: relative;
+}
+.get-personalized-recipe-container {
+  position: relative;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray);
+}
+.headline {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-2xs);
+}
+.btn-upload-child {
+  position: relative;
+  width: 51px;
+  height: 51px;
+  flex-shrink: 0;
+}
+.generate-recipe {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-poppins);
+  color: var(--white);
+  text-align: left;
+}
+.btn-upload,
+.left {
+  display: flex;
+  justify-content: center;
+}
+.btn-upload {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-34xl);
+  background-color: var(--color-indianred);
+  border-radius: var(--br-98xl);
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.left {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-81xl);
+}
+.header-img-icon {
+  position: relative;
+  width: 545px;
+  height: 517px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.header-generator-div {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-51xl);
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
