@@ -13,7 +13,7 @@ const { isAuthenticatedUser, authorizeRoles } = require("../middleware/auth");
 // creating router
 const router = express.Router();
 
-router.post('/', createUser);
+router.post('/new', createUser);
 router.put('/',isAuthenticatedUser, updateUser);
 router.post('/login', loginUser);
 router.get('/logout', isAuthenticatedUser, logOut);

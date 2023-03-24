@@ -14,25 +14,22 @@ const RegistrationForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios({
-      method: 'post',
-      url: '/user/',
-      data: {
-        "name": name,
-        "email": email,
-        "password": password,
-        "address": {
-          "line": line1,
-          "city": city,
-          "state": state,
-          "pincode": zip
-        }
+
+    axios.post('/user/new', {
+      "name": name,
+      "email": email,
+      "password": password,
+      "address": {
+        "line": line1,
+        "city": city,
+        "state": state,
+        "pincode": zip
       }
     }).then((res) => {
-      alert("Successfully Registerd");
-      window.location.href = "/login";
-    })
-      .catch((err) => console.error(err));
+        alert("Successfully Registerd");
+        window.location.href = "/login";
+      })
+      .catch((err) => alert("Something went wrong"));
   }
 
 
