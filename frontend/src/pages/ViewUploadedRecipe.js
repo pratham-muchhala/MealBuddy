@@ -101,7 +101,7 @@ const ViewUploadedRecipe = () => {
       </button>
       <div className="results" ref={results} id="results">
         {recipes.map((recipe, index) => (
-          <RecipeCard key={index} label={recipe.label} />
+          <RecipeCard key={index} label={recipe.label} img={recipe.image} source={recipe.source} ingredients={recipe.ingredientLines} recipeUrl={recipe.url} />
         ))}
 
       </div>

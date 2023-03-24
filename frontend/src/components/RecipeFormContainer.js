@@ -6,9 +6,8 @@ const RecipeFormContainer = () => {
     <div className="content1">
       <b className="give-your-recipe">Add Recipe</b>
       <div className="input-title">
-        <div className="recipe-title-input">
-          <div className="give-your-recipe">Give your recipe a title</div>
-        </div>
+        <input className="recipe-title-input" placeholder="Give your recipe a title" />
+
       </div>
       <div className="ingredients-div">
         <b className="add-ingredients">Add Ingredients</b>
