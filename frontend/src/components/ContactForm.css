@@ -1,0 +1,155 @@
+.div1,
+.supportpersonalcom {
+  position: relative;
+  line-height: 32px;
+}
+.div1 {
+  font-weight: 500;
+}
+.supportpersonalcom {
+  font-size: var(--font-size-base);
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-xl);
+}
+.quick-links {
+  position: relative;
+  line-height: 28px;
+  font-weight: 900;
+  display: inline-block;
+  width: 121px;
+}
+.meal-planner {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  opacity: 0.65;
+}
+.employee-database,
+.profile,
+.upload-recipe {
+  position: absolute;
+  top: 56px;
+  left: 222px;
+  opacity: 0.65;
+}
+.profile,
+.upload-recipe {
+  top: 0;
+  left: 0;
+}
+.upload-recipe {
+  left: 222px;
+}
+.meal-planner-parent,
+.quick-link-child {
+  position: relative;
+  height: 24px;
+  flex-shrink: 0;
+}
+.meal-planner-parent {
+  width: 338px;
+  font-size: var(--font-size-base);
+}
+.quick-link-child {
+  width: 400px;
+}
+.quick-link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.subscribe1 {
+  position: relative;
+  line-height: 28px;
+  font-weight: 900;
+  display: inline-block;
+  width: 140px;
+}
+.get-updates {
+  border: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-sm);
+  background-color: var(--white);
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-lgi);
+  align-items: center;
+  justify-content: flex-start;
+}
+.content-above-divider,
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.content-above-divider {
+  flex-direction: row;
+  gap: var(--gap-130xl);
+}
+.divider,
+.social-links-icon {
+  position: relative;
+  flex-shrink: 0;
+}
+.divider {
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  width: 1074.5px;
+  height: 2px;
+  opacity: 0.2;
+}
+.social-links-icon {
+  width: 136.5px;
+  height: 36.5px;
+}
+.mealbuddy5 {
+  font-weight: 600;
+}
+.product-of {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.pricing-wrapper,
+.product-of-wrapper {
+  position: relative;
+  width: 195px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.pricing-wrapper {
+  width: 299px;
+}
+.content-under-divider,
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-204xl);
+  font-size: var(--font-size-base);
+}
+.footer {
+  background-color: var(--color-gray);
+  width: 1444px;
+  flex-direction: column;
+  padding: var(--padding-56xl) var(--padding-166xl);
+  box-sizing: border-box;
+  gap: var(--gap-30xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--white);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,119 @@
+.click-on-sign,
+.mealbuddy4 {
+  position: relative;
+  font-family: var(--font-poppins);
+  text-align: left;
+}
+.mealbuddy4 {
+  font-size: var(--font-size-21xl);
+  font-weight: 500;
+  color: var(--color-black);
+  display: inline-block;
+  width: 310px;
+  height: 43px;
+  flex-shrink: 0;
+}
+.click-on-sign {
+  font-size: var(--font-size-mini);
+  color: var(--color-dimgray-100);
+}
+.email-input {
+  border: 1px solid var(--color-indianred);
+  font-size: var(--font-size-xl);
+  background-color: var(--white);
+  align-self: stretch;
+  border-radius: var(--br-mini);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-smi) var(--padding-4xl);
+  align-items: center;
+  justify-content: center;
+}
+.email-input,
+.password-input,
+.sign-in1 {
+  font-family: var(--font-poppins);
+}
+.password-input {
+  border: 1px solid var(--color-indianred);
+  font-size: var(--font-size-xl);
+  background-color: var(--white);
+  align-self: stretch;
+  border-radius: var(--br-mini);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-3xl);
+  align-items: center;
+  justify-content: center;
+}
+.sign-in1 {
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-weight: 600;
+  color: var(--white);
+  text-align: left;
+}
+.signin-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xs) var(--padding-89xl);
+  background-color: var(--color-indianred);
+  align-self: stretch;
+  border-radius: var(--br-mini);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.dont-have-an,
+.signup {
+  font-size: var(--font-size-sm);
+  font-family: var(--font-poppins);
+  text-align: center;
+  display: inline-block;
+}
+.dont-have-an {
+  position: relative;
+  color: var(--color-black);
+  width: 220px;
+  height: 19px;
+  flex-shrink: 0;
+}
+.signup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  color: var(--color-indianred);
+  width: 56.82px;
+  height: 14.33px;
+}
+.group-child {
+  position: absolute;
+  top: 18.61px;
+  left: 3.35px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 50.11px;
+  height: 1px;
+}
+.signup-parent {
+  position: relative;
+  width: 56.82px;
+  height: 19.11px;
+  flex-shrink: 0;
+}
+.right,
+.signup-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-300);
+  padding: var(--padding-31xl) var(--padding-11xl);
+  gap: var(--gap-lgi);
+}

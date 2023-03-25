@@ -1,0 +1,117 @@
+.img-icon,
+.recipe-name {
+  align-self: stretch;
+  position: relative;
+}
+.img-icon {
+  max-width: 100%;
+  overflow: hidden;
+  height: 181px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.recipe-name {
+  font-weight: 600;
+}
+.img-and-name {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.div,
+.rating1 {
+  flex: 1;
+  position: relative;
+}
+.div {
+  margin-left: -170px;
+}
+.rating {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.by {
+  position: relative;
+}
+.pratham-muchhala {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.by-author {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.rating-and-by,
+.yes2 {
+  font-size: var(--font-size-xl);
+}
+.rating-and-by {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.yes2 {
+  position: relative;
+  font-family: var(--font-poppins);
+  color: var(--white);
+  text-align: left;
+}
+.cta {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-67xl);
+  background-color: var(--color-indianred);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.best-card,
+.btn-view,
+.content {
+  display: flex;
+  align-items: flex-start;
+}
+.btn-view {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-mid) 0 0;
+  justify-content: center;
+}
+.best-card,
+.content {
+  flex: 1;
+}
+.content {
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.best-card {
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke);
+  box-shadow: 5px 6px 4px rgba(0, 0, 0, 0.1);
+  flex-direction: row;
+  padding: var(--padding-28xl) var(--padding-19xl);
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

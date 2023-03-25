@@ -1,0 +1,119 @@
+.btn-logo-inner {
+  position: relative;
+  background-color: var(--color-gainsboro-200);
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+}
+.mealbuddy3 {
+  position: relative;
+  font-weight: 600;
+}
+.btn-logo2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-4xl);
+}
+.login6,
+.search2 {
+  font-size: var(--font-size-xl);
+  font-family: var(--font-poppins);
+}
+.search2 {
+  border: 0.5px solid var(--color-black);
+  background-color: var(--color-gainsboro-100);
+  border-radius: var(--br-31xl);
+  box-sizing: border-box;
+  width: 334px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-11xl);
+  align-items: center;
+  justify-content: flex-start;
+}
+.login6 {
+  position: relative;
+  color: var(--white);
+  text-align: left;
+}
+.login5 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-36xl);
+  background-color: var(--color-indianred);
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hamburger-child3 {
+  position: relative;
+  border-top: 5px solid var(--color-black);
+  box-sizing: border-box;
+  width: 55px;
+  height: 5px;
+  flex-shrink: 0;
+}
+.hamburger-child4 {
+  position: relative;
+}
+.hamburger2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-mini);
+}
+.nav-bar2,
+.nav-items2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-items2 {
+  justify-content: flex-start;
+  gap: var(--gap-36xl);
+}
+.nav-bar2 {
+  width: 1279px;
+  justify-content: space-between;
+}
+.no1 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+}
+.add-recipe,
+.secondary {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.secondary {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-3xs) var(--padding-31xl);
+  background-color: transparent;
+  border-radius: var(--br-3xs);
+  align-items: flex-start;
+}
+.add-recipe {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  overflow: hidden;
+  padding: 90px var(--padding-61xl);
+  box-sizing: border-box;
+  align-items: center;
+  gap: 83px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

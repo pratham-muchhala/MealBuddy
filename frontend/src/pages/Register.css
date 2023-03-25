@@ -1,0 +1,26 @@
+.welcome {
+  margin: 0;
+}
+.register,
+.welcome-to-the-container {
+  position: relative;
+}
+.register {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-76xl) 81px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 98px;
+  background-image: url(/public/register@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: 90px;
+  color: var(--white);
+  font-family: var(--font-poppins);
+}

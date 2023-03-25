@@ -1,0 +1,109 @@
+.margherita {
+    position: relative;
+    font-weight: 800;
+}
+
+.preparation-time {
+    position: relative;
+    font-weight: 600;
+}
+
+.min {
+    position: relative;
+}
+
+.prep-time {
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-3xs) 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+}
+
+.pizza-dough-mozzarella {
+    position: relative;
+    display: inline-block;
+    width: 326px;
+    flex-shrink: 0;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-mini);
+}
+
+.by-author1,
+.view-recipe {
+    display: flex;
+    flex-direction: row;
+}
+
+.view-recipe {
+    border-radius: var(--br-3xs);
+    background-color: var(--color-indianred);
+    padding: var(--padding-3xs) var(--padding-18xl);
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.by-author1 {
+    padding: var(--padding-3xs) 0;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-3xs);
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+}
+
+.bottom {
+    gap: var(--gap-mini);
+    font-size: var(--font-size-xl);
+    color: var(--white);
+}
+
+.bottom,
+.div2,
+.left1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.div2 {
+    gap: var(--gap-15xl);
+    font-size: var(--font-size-5xl);
+}
+
+.left1 {
+    padding: var(--padding-6xl);
+    gap: var(--gap-3xs);
+}
+
+.img-4334-1-icon1 {
+    position: relative;
+    width: 275px;
+    height: 275px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.result-card {
+    border-radius: var(--br-xl);
+    background-color: var(--color-whitesmoke-100);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-3xs) var(--padding-21xl);
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-34xl);
+    text-align: left;
+    font-size: var(--font-size-11xl);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+}
