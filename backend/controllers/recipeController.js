@@ -1,4 +1,10 @@
 const Recipe = require("../models/recipeModel")
+<<<<<<< Updated upstream
+=======
+const catchAsyncError = require('../middleware/catchAsyncErrors');
+const ErrorHandler = require('../utils/ErrorHandler');
+const axios = require('axios');
+>>>>>>> Stashed changes
 
 
 
@@ -17,7 +23,7 @@ exports.createRecipe = async (req,res,next) => {
 //Get all Recipe
 exports.getAllRecipe = async (req,res)=>{
 
-    const recipes = await Recipe.findById();
+    const recipes = await Recipe.find();
 
     res.status(200).json({
         success: true,
